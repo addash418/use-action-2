@@ -1,4 +1,4 @@
-name: CI_Test_Public_Action
+name: CI_Test_Private_Action
 
 on: [workflow_dispatch]
 
