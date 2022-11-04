@@ -1,0 +1,10 @@
+name: CI_Test_Public_Action
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:    
+    - uses: actions/checkout@v2
+    - uses: addash418/action-repo-2@main
